@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thuc hanh ly thuyet</title>
+</head>
+<body>
+<script>
+    let comNumber = Math.floor(Math.random()*101);
+    let num =0;
+    let count = 0;
+    do{
+        num =+prompt("Nhap vao mot so ");
+        count++;
+        if (num>comNumber){
+            alert("so ban nhap lon hon so cua may tinh");
+        }else if(num<comNumber){
+            alert("so ban nhap nho hon so cua may tinh");
+        }else {
+        alert("Ban da nhap dung" + count +"lan nhap")}
+    }
+    while(num!==0)
+</script>
+</body>
+</html>
